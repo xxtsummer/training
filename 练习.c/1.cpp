@@ -52,13 +52,36 @@ int Add(int x, int y) {
 
 //
 
-int main() {
-	int a = 0,b=3,c=5;
+//int main() {
+//	int a = 0,b=3,c=5;
+//
+//	int d = (a = b + 2, c = a - 4, b = c + 2);
+//	printf("%d\n%d\n", d,a);
+//	return 0;
+//}
 
-	int d = (a = b + 2, c = a - 4, b = c + 2);
-	printf("%d\n%d\n", d,a);
+
+
+
+
+
+
+int main() {
+	char ch = 'w';
+	char * pc = &ch;
+	printf("%p", &ch);
+	int a = 10;
+	int* pa = &a;
+	printf("\n%p", &pa);
+	printf("\n%d", sizeof(char*));
+	printf("\n%d", sizeof(int*));
+	printf("\n%d", sizeof(long*));
+	printf("\n%d", sizeof(long long*));
+	printf("\n%d", sizeof(short*));
+	printf("\n%d", sizeof(double*));
+	printf("\n%d", sizeof(float*));
+
+
 	return 0;
 }
-
-
 
