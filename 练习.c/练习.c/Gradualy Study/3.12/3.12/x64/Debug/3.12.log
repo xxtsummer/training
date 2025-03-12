@@ -1,0 +1,11 @@
+﻿  test_training.cpp
+C:\Users\Summer\Desktop\training\练习.c\练习.c\Gradualy Study\3.12\test_training.cpp(5,13): error C2131: 表达式的计算结果不是常数
+      C:\Users\Summer\Desktop\training\练习.c\练习.c\Gradualy Study\3.12\test_training.cpp(5,11):
+      因读取超过生命周期的变量而失败
+      C:\Users\Summer\Desktop\training\练习.c\练习.c\Gradualy Study\3.12\test_training.cpp(5,11):
+      请参见“l”的用法
+  
+C:\Users\Summer\Desktop\training\练习.c\练习.c\Gradualy Study\3.12\test_training.cpp(7,11): error C3863: 不可指定数组类型“int [l+1]”
+C:\Users\Summer\Desktop\training\练习.c\练习.c\Gradualy Study\3.12\test_training.cpp(12,12): error C3863: 不可指定数组类型“int [l+1]”
+C:\Users\Summer\Desktop\training\练习.c\练习.c\Gradualy Study\3.12\test_training.cpp(4,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Summer\Desktop\training\练习.c\练习.c\Gradualy Study\3.12\test_training.cpp(10,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
